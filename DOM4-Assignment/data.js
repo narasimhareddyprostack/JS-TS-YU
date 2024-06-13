@@ -6,7 +6,7 @@ function changeColor(){
     input_Tag_Ref.style.backgroundColor = "yellow";
 }
 
-function changeCase(){
+let  changeCase= ()=>{
     //alert('Test Case 123')
     let input_Tag_Ref  = document.getElementsByTagName('input')[1];
     //console.log(input_Tag_Ref)
