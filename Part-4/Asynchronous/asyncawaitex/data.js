@@ -25,7 +25,7 @@ let displayData=()=>{
     },2000)
 }
 let lunchTime= async ()=>{
-  await  createEmployee({id:103,name:"Bramesh",sal:115000})
+    await  createEmployee({id:103,name:"Bramesh",sal:115000})
     displayData()
 }
 lunchTime()
